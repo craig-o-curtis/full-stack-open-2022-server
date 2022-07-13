@@ -68,3 +68,5 @@ Check Heroku logs with:
 ```bash
 heroku logs -t
 ```
+
+// step 3.10 confirms works at https://uhel-2022-server.herokuapp.com
