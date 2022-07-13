@@ -1,4 +1,8 @@
-# Backed Setup
+# Server-side code
+
+Client-side code at [https://github.com/craig-o-curtis/full-stack-open-2022](https://github.com/craig-o-curtis/full-stack-open-2022)
+
+# Backend Setup
 
 ## Heroku
 
