@@ -2,8 +2,9 @@
 
 Client-side code at [https://github.com/craig-o-curtis/full-stack-open-2022](https://github.com/craig-o-curtis/full-stack-open-2022)
 
-Built Heroku endpoints:
+Heroku:
 
+- [https://uhel-demo-app.herokuapp.com](https://uhel-demo-app.herokuapp.com)
 - [https://uhel-2022-server.herokuapp.com/api/contacts](https://uhel-2022-server.herokuapp.com/api/contacts)
 
 # Backend Setup
@@ -47,6 +48,7 @@ git push heroku main
 ```
 
 Deployed to:
+https://uhel-demo-app.herokuapp.com
 https://uhel-demo-app.herokuapp.com/api/contacts
 
 Check Heroku logs with:
