@@ -20,6 +20,8 @@ const incrementId = () => {
 // ** to allow using localhost:3001
 app.use(cors());
 app.use(express.json());
+// ** 3.9 serve static assets
+app.use(express.static("build"));
 // ** to allow request.body to be defined
 // ** 3.8
 morgan.token("id", function getId(req) {
