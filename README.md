@@ -7,9 +7,21 @@ Heroku:
 - [https://uhel-demo-app.herokuapp.com](https://uhel-demo-app.herokuapp.com)
 - [https://uhel-2022-server.herokuapp.com/api/contacts](https://uhel-2022-server.herokuapp.com/api/contacts)
 
-# Backend Setup
+## Scripts
 
-## Heroku
+```bash
+npm start               // node index.js
+npm run dev             // nodemon index.js
+npm run heroku:local    // heroku local web
+npm run build:ui        // rm -rf build && cd ../full-stack-open-2022-client/ && npm run build && cp -r build ../full-stack-open-2022-server
+npm run deploy          // git push heroku main
+npm run deploy:full     // npm run build:ui && git add . && git commit -m uibuild && npm run deploy
+npm run logs:prod       // heroku logs --tail
+```
+
+## Backend Setup
+
+### Heroku
 
 Setup steps are at [https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
 
